@@ -1,0 +1,87 @@
+*
+{
+    margin: 0;
+    padding: 0;
+  
+}
+body{
+    background: url(d.jpg);
+    
+    background-size: cover;
+}
+h1{
+    text-align: center;
+    color: white;
+    font-style: cursive;
+    background: rgba(0,0,0,0.5);
+    padding: 15px;
+
+}
+.glow {
+    font-size: 80px;
+    color: #fff;
+    text-align: center;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+  }
+  
+  @-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #fff, 0 0 50px #fff, 0 0 60px #fff, 0 0 70px #fff;
+    }
+    
+    to {
+      text-shadow: 0 0 20px rgb(189, 174, 174), 0 0 30px #bb9fad, 0 0 40px #c0b7bbfd, 0 0 50px #aa99a1, 0 0 60px #c9b8c0, 0 0 70px #a79ca1, 0 0 80px #ac9da4;
+    }
+  }
+mark{
+    color: black;
+}
+.container
+{
+    margin:auto;
+    width: 60%;
+    text-align: center;
+    color: black;
+    background: rgba(0, 0, 0, 0.068);
+    border:5px solid black;
+    padding: 15px;
+    position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+h2{
+    padding: 25px;
+    font-family:Times New Roman;
+    color: rgb(248, 43, 7);
+    
+}
+::placeholder{
+    color: white;
+    background: black;
+}
+.nice{
+    width: 50%;
+    padding:5px;
+    border-radius: 5px;
+    border: 2px solid rgb(12, 1, 1);
+    outline: 0;
+    font-size: 18px;
+    font-family: serif;
+    
+}
+.centered
+{
+    text-align:center;
+    width:30%;
+}
+input.centered
+{
+    padding:12px ;
+    background-color: green;
+    color: #FFF;
+    font-weight: bold;
+    margin:0 auto;
+}

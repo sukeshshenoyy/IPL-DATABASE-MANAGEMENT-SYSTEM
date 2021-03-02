@@ -1,0 +1,41 @@
+.container
+{
+    margin:0 auto;
+    width: 50%;
+}
+form
+{
+    width:330px;
+    margin:0 auto;
+    padding:40px;
+    background-color: ;
+}
+.nice{
+    widows: 100%;
+    height:30px;
+    border-radius:3px;
+    margin-top:10px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 3px 2px rgba(170, 170, 170, 0.671);
+}
+body{
+    margin: 0;
+    padding: 0;
+    background: url(.jpg);
+    background-size: 100%;
+    background-position: center;
+    font-family: sans-serif;
+}
+.centered
+{
+    text-align:center;
+    width:100%;
+}
+input.centered
+{
+    padding:12px ;
+    background-color: green;
+    color: #FFF;
+    font-weight: bold;
+    margin:0 auto;
+}
